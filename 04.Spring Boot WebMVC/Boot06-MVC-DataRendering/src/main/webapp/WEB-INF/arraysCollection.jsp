@@ -36,12 +36,12 @@
 <br>
 
 <h1>Add JSTL dependency in POM.XML And import JSTL core library in JSP page and Use it tags</h1>
-<pre>
-  <<depedency>>
-    <<groupId>javax.servlet</groupId>>
-    <<artifactId>jstl</artifactId>>
-    <<version>1.2</version>>
-  <</depedency>>
-</pre>
+<%--<pre>--%>
+<%--  <<depedency>>--%>
+<%--    <<groupId>javax.servlet</groupId>>--%>
+<%--    <<artifactId>jstl</artifactId>>--%>
+<%--    <<version>1.2</version>>--%>
+<%--  <</depedency>>--%>
+<%--</pre>--%>
 </body>
 </html>

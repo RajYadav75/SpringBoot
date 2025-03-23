@@ -12,3 +12,15 @@
 <c:forEach var="color" items="${favColor}">
     ${color}
 </c:forEach>
+<c:forEach var="name" items="${nickNames}">
+    ${name}
+</c:forEach>
+
+<c:forEach var="phno" items="${phoneNo}">
+    ${phno}
+</c:forEach>
+
+
+<c:forEach var="id" items="${idDetails}">
+    ${idDetails}
+</c:forEach>
