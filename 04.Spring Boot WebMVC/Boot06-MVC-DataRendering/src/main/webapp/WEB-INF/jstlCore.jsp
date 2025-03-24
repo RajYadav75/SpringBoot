@@ -22,5 +22,5 @@
 
 
 <c:forEach var="id" items="${idDetails}">
-    ${idDetails}
+    ${id.key}, ${id.value}
 </c:forEach>
