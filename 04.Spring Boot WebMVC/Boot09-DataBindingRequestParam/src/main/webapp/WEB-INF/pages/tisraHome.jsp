@@ -17,10 +17,11 @@
     </style>
 </head>
 <body>
-<h1>If Request Param Names are matching with Handler Method Param Name then There is no need of giving Request Param name in @RequestParam annotation</h1>
+<h1>If Request Param Names are not  matching with Handler Method Param Name then We have to of giving special attribute in @RequestParam(required=false) annotation</h1>
+<h1 style="color: red; border: 2px solid black; position: absolute">Data is  ::  ${param.sid} , ${param.sname}</h1>
 
 <div>
-    <h1>http://localhost:8080/dusra?sid=12&sname=RajYadav</h1>
+    <h1>http://localhost:8080/tisra?sid=12&name=RajYadav</h1>
 </div>
 </body>
 </html>
