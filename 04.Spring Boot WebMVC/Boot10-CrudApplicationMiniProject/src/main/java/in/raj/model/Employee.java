@@ -6,18 +6,13 @@ import lombok.Data;
 import java.io.Serializable;
 @Entity
 @Data
-@Table
+@Table(name = "emp")
 public class Employee implements Serializable {
     @Id
-    @SequenceGenerator(name = "gen1",sequenceName = "emp_id_seq",initialValue = 1,allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "gen1")
-    private Integer empNo;
-    @Column(length = 50)
-    private String empName;
-    @Column(length = 50)
-    private String job;
-
-    private float salary;
-
-    private Integer deptNo;
+    @SequenceGenerator(name="gen1",sequenceName = "EMP_ID_SEQ",initialValue = 1,allocationSize = 1)
+    @GeneratedValue(generator = "gen1",strategy = GenerationType.SEQUENCE)
+    private Integer empno;
+    private String ename;
+    private  String job="Java Developer";
+    private  Double sal;
 }

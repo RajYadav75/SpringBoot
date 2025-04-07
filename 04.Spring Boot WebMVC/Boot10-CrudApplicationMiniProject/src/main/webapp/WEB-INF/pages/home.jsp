@@ -23,6 +23,8 @@
 <body>
 <h1>Welcome to CRUD Mini Project Which is developed in Spring Boot Web MVC</h1>
 <h1>
+    <a href="report">Get Employee Data</a>
+</h1><h1>
     <a href="register">Register Employee</a>
 </h1>
 </body>
