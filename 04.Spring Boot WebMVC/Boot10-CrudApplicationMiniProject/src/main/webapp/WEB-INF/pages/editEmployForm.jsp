@@ -14,8 +14,13 @@
         form{
             text-align:center;
             border:1px solid black;
-            color:deeppink;
-            background-color:yellow;
+            box-shadow: 5px 5px black ;
+            color:black;
+            background-color:deeppink;
+            height: 200px;
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 500px;
         }
     </style>
 </head>
@@ -26,13 +31,13 @@
     <form:input path="empno"  id="number" readonly="true"/>
     <br>
     <label for="name">Employee Name:: </label>
-    <form:input path="empname"  id="name" />
+    <form:input path="ename"  id="name" />
     <br>
     <label for="job">Employee Job:: </label>
     <form:input path="job"  id="job" />
     <br>
     <label for="salary">Salary:: </label>
-    <form:input path="salary"  id="salary" />
+    <form:input path="sal"  id="salary" />
     <input type="submit" value="Edit Employee" />
 </form:form>
 </body>
