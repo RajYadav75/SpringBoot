@@ -26,6 +26,7 @@
         border: 1px solid blue;
     }
 </style>
+<h1 style="text-align: center;color: darkred">Here Are All Friends List</h1>
 <c:choose>
     <c:when test="${!empty frdList}">
         <table >

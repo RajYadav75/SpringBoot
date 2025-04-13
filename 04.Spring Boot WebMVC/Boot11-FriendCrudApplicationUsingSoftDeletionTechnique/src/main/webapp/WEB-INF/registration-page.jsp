@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-<h1>This is Friend Registration-Page</h1>
+<h1 style="text-align: center;color: deeppink">This is Friend Registration-Page</h1>
 <frm:form modelAttribute="frd" >
   <label for="fn">First Name ::</label>
   <frm:input path="firstName" id="fn"/><br><br><br>
