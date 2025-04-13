@@ -11,7 +11,12 @@
     <title>Title</title>
 </head>
 <body style="background-color:aquamarine">
+
 <h1 style="text-align: center;color: deeppink">My name is Raj Yadav and I made this Friend Registration Form Using Spring Boot MVC</h1>
-<a href="register" style="color: black;margin-left: 500px;text-decoration: none;font-weight: bold">Add New Friends</a>
+
+<div style="margin-left: 500px; margin-top: 50px; margin-bottom: 50px; background-color: aquamarine">
+    <a href="register" >Add New Friends</a>
+    <a href="friend-list">Show All Friends</a>
+</div>
 </body>
 </html>
