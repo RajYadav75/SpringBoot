@@ -50,4 +50,27 @@ public class StudentRestController {
         List<Student> studentsByName = studentService.getStudentsByName(name);
         return new ResponseEntity<List<Student>>(studentsByName, HttpStatus.OK);
     }
+    @PatchMapping("/std/{id}/{percentage}")
+    public ResponseEntity<?> modifyStudentBudgetDetailsById(@PathVariable("id") int id, @PathVariable("percentage") double percentage) {
+        String budgetById = studentService.updateBudgetById(id, percentage);
+        return new ResponseEntity<String>(budgetById, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<?> deleteStudentById(@PathVariable("id") Integer id) {
+        String removeStudentById = studentService.removeStudentById(id);
+        return new ResponseEntity<>(removeStudentById, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/deletes/{start}/{end}")
+    public ResponseEntity<?> deleteStudentByBudgetRange(@PathVariable("start") Double start, @PathVariable("end") Double end) {
+        String studentRemoveByBudgetRange = studentService.removeStudentByBudgetRange(start, end);
+        return new ResponseEntity<>(studentRemoveByBudgetRange, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/del/{type}")
+    public ResponseEntity<?> deleteStudentByType(@PathVariable("type") String type) {
+        String studentByPackageType = studentService.removeStudentByPackageType(type);
+        return new ResponseEntity<>(studentByPackageType, HttpStatus.OK);
+    }
 }

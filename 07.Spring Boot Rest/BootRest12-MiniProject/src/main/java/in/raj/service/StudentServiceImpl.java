@@ -45,4 +45,41 @@ public  class StudentServiceImpl implements IStudentService{
     public List<Student> getStudentsByName(String studentName) {
         return repo.findByName(studentName);
     }
+
+    @Override
+    public String updateBudgetById(int id, double hikePercentage) {
+        Optional<Student> studentId = repo.findById(id);
+        if (studentId.isPresent()) {
+            // Get Existing budget of the student
+            Student student = studentId.get();
+            Double budget = student.getBudget();
+            double newBudget = budget + (budget * hikePercentage / 100.0);
+            student.setBudget(newBudget);
+            repo.save(student);
+            return "Student budget is hiked...and the new budget is  :: "+newBudget;
+        }
+        return "Student not found";
+    }
+
+    @Override
+    public String removeStudentById(int id) {
+        Optional<Student> studentId = repo.findById(id);
+        if (studentId.isPresent()) {
+            repo.delete(studentId.get());
+            return "Student removed successfully with id Number :: "+id;
+        }
+        return "Student not found";
+    }
+
+    @Override
+    public String removeStudentByBudgetRange(double start, double end) {
+        int count = repo.removeStudentByBudgetRange(start, end);
+        return count==0?" Student not found for Deletion":count+" number of  students found and removed successfully";
+    }
+
+    @Override
+    public String removeStudentByPackageType(String packageType) {
+        int msg = repo.removeStudentByPackageType(packageType);
+        return msg+" no.of student are removed";
+    }
 }
