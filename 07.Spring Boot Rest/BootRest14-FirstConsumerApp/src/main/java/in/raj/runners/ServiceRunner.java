@@ -12,7 +12,7 @@ public class ServiceRunner implements CommandLineRunner {
         //Todo: Create RestTemplate Class Object
         RestTemplate restTemplate = new RestTemplate();
         // Todo: Define Service Url
-        String url = "http://localhost:8080/BootRest13/Wish-Api/greet";
+        String url = "http://localhost:8115/BootRest13/Wish-Api/greet";
         //Todo: Generate HttpRequest with Get mode to consume the web service(Api)
         ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
         //Todo: Display the received details from the response
