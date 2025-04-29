@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/wish")
+@RequestMapping("/Wish-Api")
 public class GreetMsg {
 
     @GetMapping("/greet")
