@@ -18,6 +18,7 @@ public class ServiceRunner implements CommandLineRunner {
         //Todo: Display the received details from the response
         System.out.println("Response body (Output) : "+response.getBody());
         System.out.println("Response status code value : "+response.getStatusCodeValue());
+        System.out.println("Response Status code : "+response.getStatusCode());
 //        System.out.println("Response Status code : "+response.getStatusCode().name());
         System.exit(0);
     }
