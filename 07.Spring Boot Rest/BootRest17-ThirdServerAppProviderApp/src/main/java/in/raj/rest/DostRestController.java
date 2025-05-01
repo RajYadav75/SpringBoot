@@ -24,9 +24,9 @@ public class DostRestController {
         return new ResponseEntity<>("Dost Data"+dost.toString(), HttpStatus.CREATED);
     }
     @GetMapping("/report")
-    public ResponseEntity<?> reportMsg(){
+    public ResponseEntity<Dost> reportMsg(){
         Dost dost = new Dost(1,"Raj Yadav","Ankita Tiwari",20000.00);
-        return new ResponseEntity<>("Dost Data"+dost.toString(), HttpStatus.OK);
+        return new ResponseEntity<Dost>(dost, HttpStatus.OK);
     }
 
     @GetMapping("/reportAll")
