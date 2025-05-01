@@ -6,7 +6,7 @@ import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-@Component
+//@Component
 public class ExchangeRunnerThree implements CommandLineRunner {
     @Autowired
     private RestTemplate restTemplate;
