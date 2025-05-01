@@ -1,5 +1,6 @@
 package in.raj.runner;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
@@ -8,10 +9,13 @@ import org.springframework.web.client.RestTemplate;
 
 @Component
 public class ExchangeRunnerOne implements CommandLineRunner {
+    @Autowired
+    private RestTemplate restTemplate;
     @Override
     public void run(String... args) throws Exception {
         // Todo:- Create Rest Template class Object
-        RestTemplate restTemplate = new RestTemplate();
+//        RestTemplate restTemplate = new RestTemplate();
+
         // Todo:- Define Service Url
         String url = "http://localhost:8115/BootRest17/Dost-Api/wish";
         // Todo:- Invoke Service Method/operation using exchange(-,-,-)method
@@ -24,6 +28,7 @@ public class ExchangeRunnerOne implements CommandLineRunner {
         // Todo:- Display the details
         System.out.println("Output is :: "+exchangeResponse.getBody());
         System.out.println("Status code  is :: "+exchangeResponse.getStatusCode());
+        System.out.println("Status code  is :: "+exchangeResponse.getStatusCode().value());
         System.out.println("Status code and its value is :: "+exchangeResponse.getStatusCodeValue());
 
     }
