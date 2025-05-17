@@ -5,9 +5,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@org.springframework.web.bind.annotation.RestController
-@RequestMapping
+@RestController
+@RequestMapping("/Billing-Api")
 public class BillingServiceController {
 
     @Value("${server.port}")
@@ -16,7 +17,7 @@ public class BillingServiceController {
     @Value("${eureka.instance.instance-id}")
     private String instanceId;
 
-    @GetMapping("/info")
+    @GetMapping("/billing")
     public ResponseEntity<String> getBillingInfo() {
         return new ResponseEntity<>("We accept card Payment, UPI payment, NetBanking Payment, COD-->PORT::"+port+"----InstanceID"+instanceId, HttpStatus.OK);
     }
