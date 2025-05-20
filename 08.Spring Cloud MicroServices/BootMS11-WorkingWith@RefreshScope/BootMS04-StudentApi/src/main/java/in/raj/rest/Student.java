@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Student {
     @Value("${dbuser}")
     private String user;
-    @Value("${dbpwd}")
+    @Value("${dbpass}")
     private String password;
 
     @GetMapping("/std")
