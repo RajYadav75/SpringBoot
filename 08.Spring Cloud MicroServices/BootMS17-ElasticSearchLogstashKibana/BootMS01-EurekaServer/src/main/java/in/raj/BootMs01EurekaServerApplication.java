@@ -11,7 +11,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class BootMs01EurekaServerApplication {
 
 	public static void main(String[] args) {
+		log.info("Starting Eureka Server");
 		SpringApplication.run(BootMs01EurekaServerApplication.class, args);
+		log.info("Application is Bootstrapped Successfully :: Eureka Server");
+		log.info("End of the application ::  Eureka Server");
 	}
 
 }
