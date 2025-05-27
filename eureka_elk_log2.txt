@@ -1,0 +1,124 @@
+2025-05-27T09:57:50.532+05:30  INFO 23932 --- [EurekaServer-ELK] [main] i.r.BootMs01EurekaServerElkApplication   : Starting BootMs01EurekaServerElkApplication using Java 17.0.15 with PID 23932 (D:\Coding\Java\SpringBoot\08.Spring Cloud MicroServices\BootMS17-ElasticSearchLogstashKibana\BootMS01-EurekaServer-ELK\target\classes started by Raj Yadav in D:\Coding\Java\SpringBoot\08.Spring Cloud MicroServices\BootMS17-ElasticSearchLogstashKibana\BootMS01-EurekaServer-ELK)
+2025-05-27T09:57:50.533+05:30  INFO 23932 --- [EurekaServer-ELK] [main] i.r.BootMs01EurekaServerElkApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T09:57:52.606+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-05-27T09:57:52.607+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-05-27T09:57:52.873+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-05-27T09:57:52.873+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-05-27T09:57:53.689+05:30  INFO 23932 --- [EurekaServer-ELK] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-05-27T09:57:53.689+05:30  INFO 23932 --- [EurekaServer-ELK] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-05-27T09:57:53.690+05:30  INFO 23932 --- [EurekaServer-ELK] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1748320073690 with initial instances count: 0
+2025-05-27T09:57:53.719+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-05-27T09:57:53.721+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2025-05-27T09:57:53.820+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-05-27T09:57:53.820+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-05-27T09:57:53.820+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-05-27T09:57:53.820+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-05-27T09:57:53.840+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2025-05-27T09:57:53.850+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-05-27T09:57:53.850+05:30  INFO 23932 --- [EurekaServer-ELK] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-05-27T09:57:53.908+05:30  INFO 23932 --- [EurekaServer-ELK] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-05-27T09:57:53.908+05:30  INFO 23932 --- [EurekaServer-ELK] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-05-27T09:57:53.908+05:30  INFO 23932 --- [EurekaServer-ELK] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-05-27T09:57:53.998+05:30  INFO 23932 --- [EurekaServer-ELK] [main] i.r.BootMs01EurekaServerElkApplication   : Started BootMs01EurekaServerElkApplication in 4.04 seconds (process running for 5.171)
+2025-05-27T09:57:54.007+05:30  INFO 23932 --- [EurekaServer-ELK] [main] i.r.BootMs01EurekaServerElkApplication   : Application is Bootstrapped Successfully :: Eureka Server
+2025-05-27T09:57:54.008+05:30  INFO 23932 --- [EurekaServer-ELK] [main] i.r.BootMs01EurekaServerElkApplication   : End of the application ::  Eureka Server
+2025-05-27T09:58:22.263+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86 with status UP (replication=false)
+2025-05-27T09:58:22.888+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86 with status UP (replication=true)
+2025-05-27T09:58:37.081+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86 with status DOWN (replication=false)
+2025-05-27T09:58:37.596+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86 with status DOWN (replication=true)
+2025-05-27T09:58:40.192+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86 (replication=false)
+2025-05-27T09:58:40.705+05:30  WARN 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86
+2025-05-27T09:58:40.705+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): PROVIDERMICROSERVICE - ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86
+2025-05-27T09:58:40.708+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-3] c.n.eureka.cluster.ReplicationTask       : The replication of task PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86:Cancel@localhost failed with response code 404
+2025-05-27T09:58:40.709+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-3] c.netflix.eureka.cluster.PeerEurekaNode  : PROVIDERMICROSERVICE/ProviderMicroService:b25b9c1c1eb105dbbabf12ad2c28ec86:Cancel@localhost: missing entry.
+2025-05-27T09:58:40.925+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f with status UP (replication=false)
+2025-05-27T09:58:41.433+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f with status UP (replication=true)
+2025-05-27T09:58:42.122+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f with status DOWN (replication=false)
+2025-05-27T09:58:42.636+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f with status DOWN (replication=true)
+2025-05-27T09:58:45.215+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f (replication=false)
+2025-05-27T09:58:45.720+05:30  WARN 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f
+2025-05-27T09:58:45.721+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): PROVIDERMICROSERVICE - ProviderMicroService:d94eb21a9470df278220008f4f02e03f
+2025-05-27T09:58:45.723+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-11] c.n.eureka.cluster.ReplicationTask       : The replication of task PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f:Cancel@localhost failed with response code 404
+2025-05-27T09:58:45.723+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-11] c.netflix.eureka.cluster.PeerEurekaNode  : PROVIDERMICROSERVICE/ProviderMicroService:d94eb21a9470df278220008f4f02e03f:Cancel@localhost: missing entry.
+2025-05-27T09:58:45.793+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc with status UP (replication=false)
+2025-05-27T09:58:46.303+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc with status UP (replication=true)
+2025-05-27T09:58:46.848+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status UP (replication=false)
+2025-05-27T09:58:47.354+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status UP (replication=true)
+2025-05-27T09:58:53.755+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status DOWN (replication=false)
+2025-05-27T09:58:53.909+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T09:58:54.262+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status DOWN (replication=true)
+2025-05-27T09:58:56.844+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 (replication=false)
+2025-05-27T09:58:57.371+05:30  WARN 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876
+2025-05-27T09:58:57.371+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): CONSUMERAPP - LAPTOP-A30T16IT:ConsumerApp:9876
+2025-05-27T09:58:57.371+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-3] c.n.eureka.cluster.ReplicationTask       : The replication of task CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876:Cancel@localhost failed with response code 404
+2025-05-27T09:58:57.371+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-3] c.netflix.eureka.cluster.PeerEurekaNode  : CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876:Cancel@localhost: missing entry.
+2025-05-27T09:58:57.611+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status UP (replication=false)
+2025-05-27T09:58:58.127+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status UP (replication=true)
+2025-05-27T09:58:58.861+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status DOWN (replication=false)
+2025-05-27T09:58:59.362+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status DOWN (replication=true)
+2025-05-27T09:59:01.929+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 (replication=false)
+2025-05-27T09:59:02.444+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status UP (replication=false)
+2025-05-27T09:59:02.447+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 (replication=true)
+2025-05-27T09:59:02.951+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status UP (replication=true)
+2025-05-27T09:59:53.914+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-05-27T10:00:53.925+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2025-05-27T10:01:53.932+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2025-05-27T10:02:53.946+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2025-05-27T10:03:53.954+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2025-05-27T10:04:53.955+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:05:53.969+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2025-05-27T10:06:53.972+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-05-27T10:07:53.972+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:08:53.977+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-05-27T10:09:53.978+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:10:53.986+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2025-05-27T10:11:53.992+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-05-27T10:12:53.850+05:30  INFO 23932 --- [EurekaServer-ELK] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2025-05-27T10:12:53.992+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:13:53.992+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:14:53.999+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2025-05-27T10:15:54.000+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:16:54.013+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2025-05-27T10:17:54.024+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2025-05-27T10:18:54.024+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:19:54.036+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2025-05-27T10:20:54.050+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2025-05-27T10:21:54.050+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:22:54.063+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2025-05-27T10:23:54.068+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-05-27T10:24:42.036+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc with status DOWN (replication=false)
+2025-05-27T10:24:42.547+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc with status DOWN (replication=true)
+2025-05-27T10:24:45.110+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc (replication=false)
+2025-05-27T10:24:45.641+05:30  WARN 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc
+2025-05-27T10:24:45.641+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): PROVIDERMICROSERVICE - ProviderMicroService:d15591390011a11f29a7894b25e510cc
+2025-05-27T10:24:45.643+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-16] c.n.eureka.cluster.ReplicationTask       : The replication of task PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc:Cancel@localhost failed with response code 404
+2025-05-27T10:24:45.643+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-16] c.netflix.eureka.cluster.PeerEurekaNode  : PROVIDERMICROSERVICE/ProviderMicroService:d15591390011a11f29a7894b25e510cc:Cancel@localhost: missing entry.
+2025-05-27T10:24:50.307+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status DOWN (replication=false)
+2025-05-27T10:24:50.835+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 with status DOWN (replication=true)
+2025-05-27T10:24:53.360+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876 (replication=false)
+2025-05-27T10:24:53.890+05:30  WARN 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876
+2025-05-27T10:24:53.890+05:30  INFO 23932 --- [EurekaServer-ELK] [http-nio-8761-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): CONSUMERAPP - LAPTOP-A30T16IT:ConsumerApp:9876
+2025-05-27T10:24:53.891+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-6] c.n.eureka.cluster.ReplicationTask       : The replication of task CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876:Cancel@localhost failed with response code 404
+2025-05-27T10:24:53.892+05:30  WARN 23932 --- [EurekaServer-ELK] [TaskBatchingWorker-target_localhost-6] c.netflix.eureka.cluster.PeerEurekaNode  : CONSUMERAPP/LAPTOP-A30T16IT:ConsumerApp:9876:Cancel@localhost: missing entry.
+2025-05-27T10:24:54.069+05:30  INFO 23932 --- [EurekaServer-ELK] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-05-27T10:24:55.518+05:30  INFO 23932 --- [EurekaServer-ELK] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-05-27T10:24:55.524+05:30  INFO 23932 --- [EurekaServer-ELK] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-05-27T10:24:55.525+05:30  INFO 23932 --- [EurekaServer-ELK] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-05-27T10:24:55.525+05:30  INFO 23932 --- [EurekaServer-ELK] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-05-27T10:24:55.519+05:30 ERROR 23932 --- [EurekaServer-ELK] [Eureka-Jersey3Client-Conn-Cleaner2] c.n.d.s.t.j.EurekaJersey3ClientImpl      : Cannot clean connections
+
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169) ~[jersey-common-3.1.10.jar:na]
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248) ~[jersey-client-3.1.10.jar:na]
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363) ~[jersey-client-3.1.10.jar:na]
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54) ~[jersey-client-3.1.10.jar:na]
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:338) ~[eureka-client-jersey3-2.0.4.jar:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-05-27T10:24:55.530+05:30  INFO 23932 --- [EurekaServer-ELK] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-05-27T10:24:55.530+05:30  INFO 23932 --- [EurekaServer-ELK] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
