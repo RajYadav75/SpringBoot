@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 public class ZuulPreFilter extends ZuulFilter {
 
-    private static final Logger logger = LoggerFactory.getLogger(ZuulPreFilter.class);
+    private static final Logger log = LoggerFactory.getLogger(ZuulPreFilter.class);
     @Override
     public String filterType() {
         return FilterConstants.PRE_TYPE;
@@ -35,12 +35,12 @@ public class ZuulPreFilter extends ZuulFilter {
         RequestContext context = RequestContext.getCurrentContext();
         //TODO:- Get HTTPServletRequest Object
         HttpServletRequest request = context.getRequest();
-        logger.info("==============From Zuul Pre Filter==============");
-        logger.info("Request Mode :: "+request.getMethod());
-        logger.info("Request Content Type :: "+request.getContentType());
-        logger.info("Request Content Length :: "+request.getContentLength());
-        logger.info("Request URI :: "+request.getRequestURI());
-        logger.info("Request Path :: "+request.getServletPath());
+        log.info("==============From Zuul Pre Filter==============");
+        log.info("Request Mode :: "+request.getMethod());
+        log.info("Request Content Type :: "+request.getContentType());
+        log.info("Request Content Length :: "+request.getContentLength());
+        log.info("Request URI :: "+request.getRequestURI());
+        log.info("Request Path :: "+request.getServletPath());
         return null;
     }
 }
