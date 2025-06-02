@@ -27,33 +27,33 @@ public class IPLPlayerOperationRestController {
         IPLTeam iplTeamById = playerService.getIPLTeamById(teamID);// MicroService IntraCommunication
         //TODO:- Set Team object to Player object
         player.setTeam(iplTeamById);
-        try{
+        try {
             //Use services
             String plyer = service.addPlayer(player);
             return new ResponseEntity<>(plyer, HttpStatus.CREATED);
-        }catch (Exception e) {
+        } catch (Exception e) {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
     @GetMapping("/all")
     public ResponseEntity<?> showAllPlayer() {
-        try{
+        try {
             //use services
             List<IPLPlayer> allPlayers = service.getAllPlayers();
-            return new ResponseEntity<List<IPLPlayer>>(allPlayers,HttpStatus.OK);
-        }catch (Exception e){
+            return new ResponseEntity<List<IPLPlayer>>(allPlayers, HttpStatus.OK);
+        } catch (Exception e) {
             return new ResponseEntity<String>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
     @GetMapping("/find/{id}")
     public ResponseEntity<?> showPlayerById(@PathVariable Integer id) {
-        try{
+        try {
             // use service
             IPLPlayer playerById = service.getPlayerById(id);
-            return new ResponseEntity<IPLPlayer>(playerById,HttpStatus.OK);
-        }catch (Exception e){
+            return new ResponseEntity<IPLPlayer>(playerById, HttpStatus.OK);
+        } catch (Exception e) {
             return new ResponseEntity<String>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
