@@ -20,7 +20,6 @@ public class SecurityConfig extends  WebSecurityConfigurerAdapter {
 	@Override
 	public  void configure(AuthenticationManagerBuilder auth) throws Exception {
 	    // configure  Spring data jpa as the Authentication Info provider
-		   //auth.userDetailsService(userService).passwordEncoder(new BCryptPasswordEncoder());
 		auth.userDetailsService(userService).passwordEncoder(new BCryptPasswordEncoder());
 		}
 	
