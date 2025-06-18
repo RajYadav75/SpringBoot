@@ -14,6 +14,6 @@ public class PTPSenderApp implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         jmsTemplate.send("rajmq",session -> session.createTextMessage("From the Sender :: "+new Date()));
-        System.out.println("Sender has sent the message");
+        System.out.println("Sender has sent     the message");
     }
 }
