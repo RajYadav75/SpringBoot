@@ -1,0 +1,9 @@
+zookeeper-server-start.bat E:\kafka_2.13-3.9.1\config\zookeeper.properties
+
+kafka-server-start E:\kafka_2.13-3.9.1\config\server.properties
+
+kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --topic raj-topic
+
+kafka-console-producer --bootstrap-server localhost:9092 --topic raj-topic hello
+
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic raj-topic
