@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collation = "Reactive-Employee")
 public class Employee {
     @Id
-    private String id;
+    private Integer id;
     private String empName;
     private String empDept;
     private Double empSalary;
