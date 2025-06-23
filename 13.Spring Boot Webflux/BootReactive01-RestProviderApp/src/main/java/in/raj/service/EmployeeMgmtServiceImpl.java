@@ -2,11 +2,13 @@ package in.raj.service;
 
 import in.raj.model.Employee;
 import in.raj.repository.IEmployeeRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 @Service
 public class EmployeeMgmtServiceImpl implements IEmployeeService{
+    @Autowired
     private IEmployeeRepository repo;
     @Override
     public Mono<Employee> saveEmployee(Employee employee) {
