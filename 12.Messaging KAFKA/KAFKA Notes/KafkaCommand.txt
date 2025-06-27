@@ -7,7 +7,3 @@ kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 -
 kafka-console-producer --bootstrap-server localhost:9092 --topic raj-topic hello
 
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic raj-topic
-
-
-130
-460
