@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: BootJPA09-FindByIdMethodInFinderMethodCategory
+    datasource:
+        username: system
+        password: raj
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+        url: jdbc:oracle:thin:@localhost:1521:orcl
+    jpa:
+        hibernate:
+            ddl-auto: update
+        database-platform: org.hibernate.dialect.OracleDialect
+        show-sql: true
