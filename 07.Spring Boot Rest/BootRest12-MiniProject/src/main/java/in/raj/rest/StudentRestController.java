@@ -2,6 +2,10 @@ package in.raj.rest;
 
 import in.raj.modal.Student;
 import in.raj.service.IStudentService;
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Contact;
+import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.annotations.info.License;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +15,16 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/Student-Api")
+@OpenAPIDefinition(info =
+@Info(
+        title = "Mini Project",
+        version = "1.0",
+        description = "Mini Project Crud Api supporting File Download operations",
+        license = @License(name = "Raj IT", url = "http://raj.com"),
+        contact = @Contact(url = "http://13.49.102.254:8115", name = "Raj", email = "Raj@gigagantic-server.com")
+)
+)
+@CrossOrigin(origins = "http://localhost:4200")
 public class StudentRestController {
     @Autowired
     private IStudentService studentService;
