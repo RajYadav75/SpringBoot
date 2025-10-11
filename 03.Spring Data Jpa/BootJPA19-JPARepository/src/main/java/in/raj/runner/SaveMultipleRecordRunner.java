@@ -9,11 +9,11 @@ import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
-@Component
+//@Component
 public class SaveMultipleRecordRunner implements CommandLineRunner {
-    @Autowired
+//    @Autowired
     private IHeroinesService service;
-    @Autowired
+//    @Autowired
     private IHeroines heroines;
     @Override
     public void run(String... args) throws Exception {
