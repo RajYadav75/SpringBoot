@@ -1,4 +1,4 @@
-package in.raj;
+package in.raj.runner;
 
 import in.raj.entity.Heroines;
 import in.raj.service.IHeroinesService;
