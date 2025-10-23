@@ -13,9 +13,9 @@ public class OneToManyRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         //TODO:- Save the data using Parent
-        //service.saveDataUsingCustomer();
+        service.saveDataUsingCustomer();
         //TODO:- Save the data using Child
-        //service.saveDataUsingPhoneNumber();
+        service.saveDataUsingPhoneNumber();
         //TODO:- Load data using Parent
         service.getDataUsingCustomer();
         service.getDataUsingPhoneNumber();
