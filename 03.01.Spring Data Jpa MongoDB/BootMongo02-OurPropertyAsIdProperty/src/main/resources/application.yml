@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: BootMongo02-OurPropertyAsIdProperty
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            database: springbootdb
