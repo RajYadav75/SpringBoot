@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: BootMongo03-FinderMethod
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            database: springbootdb
