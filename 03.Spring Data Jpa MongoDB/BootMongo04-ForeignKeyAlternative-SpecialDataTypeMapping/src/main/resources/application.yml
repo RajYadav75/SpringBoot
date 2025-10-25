@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: BootMongo04-ForeignKeyAlternative-SpecialDataTypeMapping
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            database: springbootdb
